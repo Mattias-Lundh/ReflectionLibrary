@@ -1,0 +1,11 @@
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.2\ReflectionLibrary.deps.json
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.2\ReflectionLibrary.runtimeconfig.json
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.2\ReflectionLibrary.runtimeconfig.dev.json
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.2\ReflectionLibrary.dll
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.2\ReflectionLibrary.pdb
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.2\ReflectionLibrary.csprojAssemblyReference.cache
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.2\ReflectionLibrary.csproj.CoreCompileInputs.cache
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.2\ReflectionLibrary.AssemblyInfoInputs.cache
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.2\ReflectionLibrary.AssemblyInfo.cs
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.2\ReflectionLibrary.dll
+C:\aaamyfiles\private\projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.2\ReflectionLibrary.pdb
