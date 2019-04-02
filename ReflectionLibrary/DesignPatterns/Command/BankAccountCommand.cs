@@ -6,6 +6,13 @@ namespace ReflectionLibrary.DesignPatterns.Command
 {
     public class BankAccountCommand : ICommand
     {
+        public BankAccountCommand(BankAccount account, Action action, int amount)
+        {
+            this.account = account;
+            this.action = action;
+            this.amount = amount;
+        }
+
         private BankAccount account;
 
         public enum Action
@@ -28,13 +35,6 @@ namespace ReflectionLibrary.DesignPatterns.Command
                 default:
                     throw new ArgumentOutOfRangeException();
             }
-        }
-
-        public BankAccountCommand(BankAccount account, Action action, int amount)
-        {
-            this.account = account;
-            this.action = action;
-            this.amount = amount;
         }
     }
 }

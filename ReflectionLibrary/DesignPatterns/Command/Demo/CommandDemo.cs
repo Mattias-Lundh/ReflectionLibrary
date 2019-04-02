@@ -10,19 +10,19 @@ namespace ReflectionLibrary.DesignPatterns.Command.Demo
     {
         public void Run()
         {
-            var ba = new BankAccount();
+            var bankAccount = new BankAccount();
             var commands = new List<BankAccountCommand>
             {
-                new BankAccountCommand(ba, BankAccountCommand.Action.Deposit, 100),
-                new BankAccountCommand(ba, BankAccountCommand.Action.Withdraw, 50)
+                new BankAccountCommand(bankAccount, BankAccountCommand.Action.Deposit, 100),
+                new BankAccountCommand(bankAccount, BankAccountCommand.Action.Withdraw, 50)
             };
-            Console.WriteLine(ba);
+            Console.WriteLine(bankAccount);
             foreach (var c in commands)
             {
                 c.Call();
             }
 
-            Console.WriteLine(ba);
+            Console.WriteLine(bankAccount);
             
         }
     }
