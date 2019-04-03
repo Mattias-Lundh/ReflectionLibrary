@@ -14,7 +14,7 @@ namespace ReflectionLibrary.DesignPatterns.Interpreter.Parsing
         public Type MyType;
         public IElement Left, Right;
         public int Value { get{
-            switch (MyType)
+            switch (this.MyType)
             {
                 case Type.Addition:
                     return this.Left.Value + this.Right.Value;

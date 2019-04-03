@@ -27,10 +27,10 @@ namespace ReflectionLibrary.DesignPatterns.Interpreter.Demo
                         result.Add(new Token(Token.Type.Minus, "-"));
                         break;
                     case '(':
-                        result.Add(new Token(Token.Type.Rparen, "("));
+                        result.Add(new Token(Token.Type.Lparen, "("));
                         break;
                     case ')':
-                        result.Add(new Token(Token.Type.Lparen, ")"));
+                        result.Add(new Token(Token.Type.Rparen, ")"));
                         break;
                     default:
                         var sb = new StringBuilder(input[i].ToString());
