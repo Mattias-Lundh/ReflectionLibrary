@@ -6,6 +6,8 @@ namespace ReflectionLibrary.Infrastructure
 {
     public interface IDemo
     {
+        string Title { get; set; }
         void Run();
+        
     }
 }

@@ -8,8 +8,17 @@ namespace ReflectionLibrary.DesignPatterns.Command.Demo
 
     public class CommandDemo : IDemo
     {
+        public CommandDemo()
+        {
+            this.Title = "Command";
+        }
+
+        public string Title { get; set; }
+
         public void Run()
         {
+            Console.WriteLine($"***     COMMAND DEMO    ***");
+
             var bankAccount = new BankAccount();
             var commands = new List<BankAccountCommand>
             {
@@ -23,7 +32,6 @@ namespace ReflectionLibrary.DesignPatterns.Command.Demo
             }
 
             Console.WriteLine(bankAccount);
-            
         }
     }
 }

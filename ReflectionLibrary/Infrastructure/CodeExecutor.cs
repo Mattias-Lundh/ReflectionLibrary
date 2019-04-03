@@ -17,6 +17,7 @@ namespace ReflectionLibrary.Infrastructure
         {
             foreach (var demo in this.demos)
             {
+                Console.WriteLine(demo.Title);
                 demo.Run();
                 Console.WriteLine();
             }

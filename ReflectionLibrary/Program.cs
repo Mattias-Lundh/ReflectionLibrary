@@ -7,6 +7,7 @@ namespace ReflectionLibrary
 
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
+    using ReflectionLibrary.DesignPatterns.Mediator.Demo;
     using ReflectionLibrary.Infrastructure;
 
     class Program
@@ -17,7 +18,7 @@ namespace ReflectionLibrary
             demos.AddRange(new List<IDemo>
             {
                 new CommandDemo(),
-                new InterpreterDemo()
+                new MediatorDemo()
             });
 
             var executor = new CodeExecutor(demos);
