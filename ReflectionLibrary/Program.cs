@@ -18,7 +18,8 @@ namespace ReflectionLibrary
             demos.AddRange(new List<IDemo>
             {
                 new CommandDemo(),
-                new MediatorDemo()
+                new MediatorDemo(),
+                new EventBrokerDemo()
             });
 
             var executor = new CodeExecutor(demos);
