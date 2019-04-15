@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj": {}
+  },
+  "projects": {
+    "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+        "projectName": "ReflectionLibrary",
+        "projectPath": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            },
+            "morelinq": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

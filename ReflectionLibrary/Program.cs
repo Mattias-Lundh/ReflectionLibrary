@@ -8,6 +8,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
+    using ReflectionLibrary.DesignPatterns.Singleton.Demo;
     using ReflectionLibrary.Infrastructure;
 
     class Program
@@ -17,6 +18,8 @@ namespace ReflectionLibrary
             var demos = new List<IDemo>();
             demos.AddRange(new List<IDemo>
             {
+                new SingletonDemo(),
+
                 new CommandDemo(),
                 new MediatorDemo(),
                 new EventBrokerDemo()

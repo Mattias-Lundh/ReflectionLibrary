@@ -1,0 +1,20 @@
+﻿Beijing
+20.7
+New Delhi
+16.8
+Tokyo
+13.2
+Manila
+12.9
+Russia
+11.5
+Cairo
+10.2
+Jakarta
+10.2
+Kinshasa
+10.2
+Seoul
+9.9
+Dhaka
+8.9

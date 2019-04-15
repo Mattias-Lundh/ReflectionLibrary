@@ -16,7 +16,6 @@ namespace ReflectionLibrary.DesignPatterns.Mediator.Demo
 
         public void Run()
         {
-            Console.WriteLine($"***     MEDIATOR DEMO       ***");
             var room = new ChatRoom();
 
             var john = new Person("John");

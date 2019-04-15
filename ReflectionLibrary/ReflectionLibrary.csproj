@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +11,14 @@
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="morelinq" Version="3.1.1" />
     <PackageReference Include="System.Reactive.Core" Version="4.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DesignPatterns\Singleton\capitals.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

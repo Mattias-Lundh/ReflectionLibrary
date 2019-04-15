@@ -17,8 +17,6 @@ namespace ReflectionLibrary.DesignPatterns.Command.Demo
 
         public void Run()
         {
-            Console.WriteLine($"***     COMMAND DEMO    ***");
-
             var bankAccount = new BankAccount();
             var commands = new List<BankAccountCommand>
             {
