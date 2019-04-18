@@ -10,3 +10,15 @@ C:\aaamyfilesystem\Projects\Reflection library\ReflectionLibrary\ReflectionLibra
 C:\aaamyfilesystem\Projects\Reflection library\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.dll
 C:\aaamyfilesystem\Projects\Reflection library\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.pdb
 C:\aaamyfilesystem\Projects\Reflection library\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.1\DesignPatterns\Singleton\Capitals.txt
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.1\DesignPatterns\Singleton\capitals.txt
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.1\ReflectionLibrary.deps.json
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.1\ReflectionLibrary.runtimeconfig.json
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.1\ReflectionLibrary.runtimeconfig.dev.json
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.1\ReflectionLibrary.dll
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\bin\Debug\netcoreapp2.1\ReflectionLibrary.pdb
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.csprojAssemblyReference.cache
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.csproj.CoreCompileInputs.cache
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.AssemblyInfoInputs.cache
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.AssemblyInfo.cs
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.dll
+C:\aaamyfilesystem\Projects\ReflectionLibrary\ReflectionLibrary\obj\Debug\netcoreapp2.1\ReflectionLibrary.pdb
