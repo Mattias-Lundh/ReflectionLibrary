@@ -20,7 +20,7 @@ namespace ReflectionLibrary.DesignPatterns.Bridge.Demo
             cb.RegisterType<VectorRenderer>().As<IRenderer>();
             cb.Register((c, p) => new Circle(c.Resolve<IRenderer>(), p.Positional<float>(0)));
 
-            using (var c = cb.Build())
+            using (IContainer c = cb.Build())
             {
                 var circle = c.Resolve<Circle>(
                     new PositionalParameter(0, 4.0f)
