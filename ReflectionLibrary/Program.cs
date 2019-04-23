@@ -5,6 +5,7 @@ namespace ReflectionLibrary
     using System.Collections.Generic;
     using System.Linq;
     using ReflectionLibrary.DesignPatterns.Adapter.Demo;
+    using ReflectionLibrary.DesignPatterns.Bridge.Demo;
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
@@ -22,7 +23,8 @@ namespace ReflectionLibrary
                 new AdapterDemo(),
                 new CommandDemo(),
                 new MediatorDemo(),
-                new EventBrokerDemo()
+                new EventBrokerDemo(),
+                new BridgeDemo()
             });
 
             var executor = new CodeExecutor(demos);
