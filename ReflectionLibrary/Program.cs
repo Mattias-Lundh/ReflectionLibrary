@@ -3,13 +3,12 @@
 namespace ReflectionLibrary
 {
     using System.Collections.Generic;
-    using System.Linq;
     using ReflectionLibrary.DesignPatterns.Adapter.Demo;
     using ReflectionLibrary.DesignPatterns.Bridge.Demo;
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Composite.Demo;
     using ReflectionLibrary.DesignPatterns.Decorator.Demo;
-    using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
+    using ReflectionLibrary.DesignPatterns.Factory.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
     using ReflectionLibrary.DesignPatterns.Singleton.Demo;
     using ReflectionLibrary.Infrastructure;
@@ -28,7 +27,8 @@ namespace ReflectionLibrary
                 new EventBrokerDemo(),
                 new BridgeDemo(),
                 new CompositeDemo(),
-                new DecoratorDemo()
+                new DecoratorDemo(),
+                new FactoryMethodDemo()
             });
 
             var executor = new CodeExecutor(demos);

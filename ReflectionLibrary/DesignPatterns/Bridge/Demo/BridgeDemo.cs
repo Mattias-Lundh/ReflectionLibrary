@@ -7,13 +7,15 @@ namespace ReflectionLibrary.DesignPatterns.Bridge.Demo
 {
     using ReflectionLibrary.Infrastructure;
 
-    public class BridgeDemo : IDemo
+    public class BridgeDemo : IDemo, IDemoDescription
     {
         public BridgeDemo()
         {
             this.Title = "Bridge";
         }
         public string Title { get; set; }
+        public string Description { get; set; } = "When piecewise object construction is complicated, provide an API for doing it succinctly";
+
         public void Run()
         {
             var cb = new ContainerBuilder();
@@ -30,8 +32,6 @@ namespace ReflectionLibrary.DesignPatterns.Bridge.Demo
                 circle.Resize(0.5f);
                 circle.Draw();
             }
-
-
         }
     }
 }

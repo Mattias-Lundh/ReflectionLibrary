@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ReflectionLibrary.DesignPatterns.Decorator
 {
-    class INPROGRESSdeleteme
+    public abstract class RestaurantDish
     {
+        public abstract void Display();
     }
 }

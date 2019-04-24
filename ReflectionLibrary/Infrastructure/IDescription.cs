@@ -4,9 +4,8 @@ using System.Text;
 
 namespace ReflectionLibrary.Infrastructure
 {
-    public interface IDemo
+    public interface IDemoDescription
     {
-        string Title { get; set; }
-        void Run();
+        string Description { get; set; }
     }
 }
