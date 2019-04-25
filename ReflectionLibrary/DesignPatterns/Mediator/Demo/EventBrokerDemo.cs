@@ -42,6 +42,7 @@ namespace ReflectionLibrary.DesignPatterns.Mediator.Demo
             }
         }
 
-        public string Description { get; set; } = "A component that facilitates communication between other components without them necessarily being aware of each other or having direct (reference) access to each other"
+        public string Description { get; set; } =
+            "A component that facilitates communication between other components without them necessarily being aware of each other or having direct (reference) access to each other";
     }
 }
