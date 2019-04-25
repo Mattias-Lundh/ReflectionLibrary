@@ -10,6 +10,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Decorator.Demo;
     using ReflectionLibrary.DesignPatterns.Factory.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
+    using ReflectionLibrary.DesignPatterns.Prototype.Demo;
     using ReflectionLibrary.DesignPatterns.Singleton.Demo;
     using ReflectionLibrary.Infrastructure;
 
@@ -30,7 +31,8 @@ namespace ReflectionLibrary
                 new DecoratorDemo(),
                 new FactoryMethodDemo(),
                 new FactoryDemo(),
-                new AbstractFactoryDemo()
+                new AbstractFactoryDemo(),
+                new PrototypeDemo()
             });
 
             var executor = new CodeExecutor(demos);
