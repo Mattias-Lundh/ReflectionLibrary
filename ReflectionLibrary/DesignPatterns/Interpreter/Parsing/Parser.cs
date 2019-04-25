@@ -39,7 +39,7 @@ namespace ReflectionLibrary.DesignPatterns.Interpreter.Parsing
                         result.MyType = BinaryOperation.Type.Subtraction;
                         break;
                     case Token.Type.Lparen:
-                        // bug, code gets stuck here
+                        // TODO - bug?
                         int j = i;
                         for (; j < tokens.Count; ++i)
                             if (tokens[j].MyType == Token.Type.Rparen)

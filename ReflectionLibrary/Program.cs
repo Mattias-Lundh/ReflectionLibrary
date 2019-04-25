@@ -9,6 +9,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Composite.Demo;
     using ReflectionLibrary.DesignPatterns.Decorator.Demo;
+    using ReflectionLibrary.DesignPatterns.Facade.Demo;
     using ReflectionLibrary.DesignPatterns.Factory.Demo;
     using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
@@ -36,6 +37,7 @@ namespace ReflectionLibrary
                 new AbstractFactoryDemo(),
                 new PrototypeDemo(),
                 new BuilderDemo(),
+                new FacadeDemo(),
                 new InterpreterDemo()
             });
 
