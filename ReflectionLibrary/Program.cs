@@ -5,6 +5,7 @@ namespace ReflectionLibrary
     using System.Collections.Generic;
     using ReflectionLibrary.DesignPatterns.Adapter.Demo;
     using ReflectionLibrary.DesignPatterns.Bridge.Demo;
+    using ReflectionLibrary.DesignPatterns.Builder.Demo;
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Composite.Demo;
     using ReflectionLibrary.DesignPatterns.Decorator.Demo;
@@ -32,7 +33,8 @@ namespace ReflectionLibrary
                 new FactoryMethodDemo(),
                 new FactoryDemo(),
                 new AbstractFactoryDemo(),
-                new PrototypeDemo()
+                new PrototypeDemo(),
+                new BuilderDemo()
             });
 
             var executor = new CodeExecutor(demos);
