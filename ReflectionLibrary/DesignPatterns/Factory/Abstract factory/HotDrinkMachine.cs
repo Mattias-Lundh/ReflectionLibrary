@@ -1,4 +1,4 @@
-﻿namespace ReflectionLibrary.DesignPatterns.Factory.Demo.Abstract_factory
+﻿namespace ReflectionLibrary.DesignPatterns.Factory.Abstract_factory
 {
     using System;
     using System.Collections.Generic;
@@ -10,7 +10,7 @@
             foreach (AvaliableDrink drink in Enum.GetValues(typeof(AvaliableDrink)))
             {
                 var factory = (IHotDrinkFactory) Activator.CreateInstance(
-                    Type.GetType("ReflectionLibrary.DesignPatterns.Factory.Demo.Abstract_factory." + Enum.GetName(typeof(AvaliableDrink), drink) + "Factory")
+                    Type.GetType("ReflectionLibrary.DesignPatterns.Factory.Abstract_factory." + Enum.GetName(typeof(AvaliableDrink), drink) + "Factory")
                     );
                 this.factories.Add(drink, factory);
             }

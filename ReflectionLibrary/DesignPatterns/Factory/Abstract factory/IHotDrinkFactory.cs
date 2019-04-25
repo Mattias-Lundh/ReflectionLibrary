@@ -1,4 +1,4 @@
-﻿namespace ReflectionLibrary.DesignPatterns.Factory.Demo.Abstract_factory
+﻿namespace ReflectionLibrary.DesignPatterns.Factory.Abstract_factory
 {
     public interface IHotDrinkFactory
     {

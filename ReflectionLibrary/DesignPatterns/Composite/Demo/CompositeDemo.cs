@@ -7,7 +7,7 @@ namespace ReflectionLibrary.DesignPatterns.Composite.Demo
 {
     using ReflectionLibrary.Infrastructure;
 
-    public class CompositeDemo : IDemo
+    public class CompositeDemo : IDemo, IDemoDescription
     {
         public CompositeDemo()
         {
@@ -28,5 +28,7 @@ namespace ReflectionLibrary.DesignPatterns.Composite.Demo
 
             WriteLine(drawing);
         }
+
+        public string Description { get; set; } = "A mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner";
     }
 }

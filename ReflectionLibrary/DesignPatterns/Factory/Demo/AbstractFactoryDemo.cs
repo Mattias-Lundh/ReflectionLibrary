@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ReflectionLibrary.DesignPatterns.Factory.Demo
 {
-    using ReflectionLibrary.DesignPatterns.Factory.Demo.Abstract_factory;
+    using ReflectionLibrary.DesignPatterns.Factory.Abstract_factory;
 
     public class AbstractFactoryDemo : IDemo, IDemoDescription
     {

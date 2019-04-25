@@ -6,7 +6,7 @@ namespace ReflectionLibrary.DesignPatterns.Command.Demo
 {
     using ReflectionLibrary.Infrastructure;
 
-    public class CommandDemo : IDemo
+    public class CommandDemo : IDemo, IDemoDescription
     {
         public CommandDemo()
         {
@@ -31,5 +31,7 @@ namespace ReflectionLibrary.DesignPatterns.Command.Demo
 
             Console.WriteLine(bankAccount);
         }
+
+        public string Description { get; set; } = "An object which represents an instruction to perform a particular action. Contains all the information necessary for the action to be taken";
     }
 }

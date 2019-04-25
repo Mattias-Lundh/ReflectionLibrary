@@ -6,7 +6,7 @@ namespace ReflectionLibrary.DesignPatterns.Mediator.Demo
 {
     using ReflectionLibrary.Infrastructure;
 
-    public class MediatorDemo : IDemo
+    public class MediatorDemo : IDemo, IDemoDescription
     {
         public MediatorDemo()
         {
@@ -33,5 +33,8 @@ namespace ReflectionLibrary.DesignPatterns.Mediator.Demo
             jane.PrivateMessage("Simon", "glad you could join us simon");
 
         }
+
+        public string Description { get; set; } =
+            "A component that facilitates communication between other components without them necessarily being aware of each other or having direct (reference) access to each other";
     }
 }

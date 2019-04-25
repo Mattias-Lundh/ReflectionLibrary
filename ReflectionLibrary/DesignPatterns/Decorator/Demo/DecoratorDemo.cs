@@ -7,7 +7,7 @@ namespace ReflectionLibrary.DesignPatterns.Decorator.Demo
 {
     using ReflectionLibrary.Infrastructure;
 
-    public class DecoratorDemo : IDemo
+    public class DecoratorDemo : IDemo, IDemoDescription
     {
         public DecoratorDemo()
         {
@@ -37,5 +37,7 @@ namespace ReflectionLibrary.DesignPatterns.Decorator.Demo
             saladAvaliable.Display();
             carbonaraAvaliable.Display();
         }
+
+        public string Description { get; set; } = "Facilitates the addition of behaviors to individual objects without inheriting from them";
     }
 }

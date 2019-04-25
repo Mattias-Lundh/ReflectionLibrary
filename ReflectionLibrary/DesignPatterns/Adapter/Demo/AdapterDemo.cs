@@ -7,7 +7,7 @@ using MoreLinq;
 
 namespace ReflectionLibrary.DesignPatterns.Adapter.Demo
 {
-    public class AdapterDemo : IDemo
+    public class AdapterDemo : IDemo, IDemoDescription
     {
         public AdapterDemo()
         {
@@ -38,5 +38,7 @@ namespace ReflectionLibrary.DesignPatterns.Adapter.Demo
         {
             Console.Write(".");
         }
+
+        public string Description { get; set; } = "A construct which adapts an existing interface X to conform to a required interface Y";
     }
 }

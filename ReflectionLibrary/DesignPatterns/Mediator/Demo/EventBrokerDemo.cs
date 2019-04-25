@@ -9,7 +9,7 @@ namespace ReflectionLibrary.DesignPatterns.Mediator.Demo
     using ReflectionLibrary.DesignPatterns.Mediator.EventBroker;
     using ReflectionLibrary.Infrastructure;
 
-    public class EventBrokerDemo : IDemo
+    public class EventBrokerDemo : IDemo, IDemoDescription
     {
         public EventBrokerDemo()
         {
@@ -41,5 +41,7 @@ namespace ReflectionLibrary.DesignPatterns.Mediator.Demo
                 
             }
         }
+
+        public string Description { get; set; } = "A component that facilitates communication between other components without them necessarily being aware of each other or having direct (reference) access to each other"
     }
 }
