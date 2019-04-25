@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ReflectionLibrary.DesignPatterns.Factory
 {
-    public class Point
+    public static class PointFactory
     {
         public static Point NewPolarPoint(double roh, double theta)
         {
@@ -13,17 +13,6 @@ namespace ReflectionLibrary.DesignPatterns.Factory
         public static Point NewCartesianPoint(double x, double y)
         {
             return new Point(x, y);
-        }
-        public Point(double x, double y)
-        {
-            this.x = x;
-            this.y = y;
-        }
-        private double x, y;
-
-        public override string ToString()
-        {
-            return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
         }
     }
 }

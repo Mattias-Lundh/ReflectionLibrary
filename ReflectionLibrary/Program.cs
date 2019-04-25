@@ -28,7 +28,9 @@ namespace ReflectionLibrary
                 new BridgeDemo(),
                 new CompositeDemo(),
                 new DecoratorDemo(),
-                new FactoryMethodDemo()
+                new FactoryMethodDemo(),
+                new FactoryDemo(),
+                new AbstractFactoryDemo()
             });
 
             var executor = new CodeExecutor(demos);

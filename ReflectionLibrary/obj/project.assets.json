@@ -1033,23 +1033,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matti\\.nuget\\packages\\": {},
+    "C:\\Users\\matlun\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+      "projectUniqueName": "C:\\aaamyfiles\\private\\projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
       "projectName": "ReflectionLibrary",
-      "projectPath": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
-      "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
-      "outputPath": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\obj\\",
+      "projectPath": "C:\\aaamyfiles\\private\\projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+      "packagesPath": "C:\\Users\\matlun\\.nuget\\packages\\",
+      "outputPath": "C:\\aaamyfiles\\private\\projects\\ReflectionLibrary\\ReflectionLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\matlun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1057,6 +1057,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.jetshop.se/nuget/jetshop": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1078,6 +1079,7 @@
             "version": "[4.9.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
