@@ -40,7 +40,7 @@ namespace ReflectionLibrary
                 new BuilderDemo(),
                 new FacadeDemo(),
                 new InterpreterDemo(),
-                //new FlyweightDemo()
+                new FlyweightDemo()
             });
 
             var executor = new CodeExecutor(demos);
