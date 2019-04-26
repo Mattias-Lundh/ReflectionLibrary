@@ -6,6 +6,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Adapter.Demo;
     using ReflectionLibrary.DesignPatterns.Bridge.Demo;
     using ReflectionLibrary.DesignPatterns.Builder.Demo;
+    using ReflectionLibrary.DesignPatterns.ChainOfResponsibility.Demo;
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Composite.Demo;
     using ReflectionLibrary.DesignPatterns.Decorator.Demo;
@@ -42,7 +43,8 @@ namespace ReflectionLibrary
                 new FacadeDemo(),
                 new InterpreterDemo(),
                 new FlyweightDemo(),
-                new ProxyDemo()
+                new ProxyDemo(),
+                new ChainOfResponsibilityDemo()
             });
 
             var executor = new CodeExecutor(demos);
