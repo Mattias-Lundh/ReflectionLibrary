@@ -11,6 +11,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Decorator.Demo;
     using ReflectionLibrary.DesignPatterns.Facade.Demo;
     using ReflectionLibrary.DesignPatterns.Factory.Demo;
+    using ReflectionLibrary.DesignPatterns.FlyWeight.Demo;
     using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
     using ReflectionLibrary.DesignPatterns.Prototype.Demo;
@@ -38,7 +39,8 @@ namespace ReflectionLibrary
                 new PrototypeDemo(),
                 new BuilderDemo(),
                 new FacadeDemo(),
-                new InterpreterDemo()
+                new InterpreterDemo(),
+                //new FlyweightDemo()
             });
 
             var executor = new CodeExecutor(demos);
