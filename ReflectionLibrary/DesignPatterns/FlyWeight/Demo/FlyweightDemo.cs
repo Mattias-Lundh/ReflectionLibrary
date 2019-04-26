@@ -11,8 +11,7 @@ namespace ReflectionLibrary.DesignPatterns.FlyWeight.Demo
         public string Title { get; set; } = "Flyweight";
         public void Run()
         {
-            var tester = new Tester();
-            tester.TestUser();
+            // TODO
         }
 
         public string Description { get; set; } = "A space optimization technique that lets us use less memory by storing externally the data associated with similar objects";
