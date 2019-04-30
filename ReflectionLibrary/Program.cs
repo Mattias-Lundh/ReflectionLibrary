@@ -14,6 +14,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Factory.Demo;
     using ReflectionLibrary.DesignPatterns.FlyWeight.Demo;
     using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
+    using ReflectionLibrary.DesignPatterns.Iterator.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
     using ReflectionLibrary.DesignPatterns.Prototype.Demo;
     using ReflectionLibrary.DesignPatterns.Proxy.Demo;
@@ -44,7 +45,9 @@ namespace ReflectionLibrary
                 new InterpreterDemo(),
                 new FlyweightDemo(),
                 new ProxyDemo(),
-                new ChainOfResponsibilityDemo()
+                new ChainOfResponsibilityDemo(),
+                new IteratorDemo()
+
             });
 
             var executor = new CodeExecutor(demos);

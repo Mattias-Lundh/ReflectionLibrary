@@ -9,7 +9,7 @@ namespace ReflectionLibrary.DesignPatterns.Factory.Demo
 
     public class AbstractFactoryDemo : IDemo, IDemoDescription
     {
-        public string Description { get; set; } = "A component responsible solely for the wholesale (not piecewise) creation of objects";
+        public string Description { get; set; } = "Provide an interface for creating families of related or dependant objects without specifying th";
         public string Title { get; set; } = "Abstract Factory";
 
         public void Run()

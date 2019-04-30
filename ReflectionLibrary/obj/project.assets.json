@@ -1039,11 +1039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+      "projectUniqueName": "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
       "projectName": "ReflectionLibrary",
-      "projectPath": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+      "projectPath": "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
       "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
-      "outputPath": "C:\\aaamyfilesystem\\Projects\\Reflection library\\ReflectionLibrary\\ReflectionLibrary\\obj\\",
+      "outputPath": "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
