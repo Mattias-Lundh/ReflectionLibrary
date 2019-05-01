@@ -16,6 +16,8 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Interpreter.Demo;
     using ReflectionLibrary.DesignPatterns.Iterator.Demo;
     using ReflectionLibrary.DesignPatterns.Mediator.Demo;
+    using ReflectionLibrary.DesignPatterns.Memento.Demo;
+    using ReflectionLibrary.DesignPatterns.Null_Object.Demo;
     using ReflectionLibrary.DesignPatterns.Prototype.Demo;
     using ReflectionLibrary.DesignPatterns.Proxy.Demo;
     using ReflectionLibrary.DesignPatterns.Singleton.Demo;
@@ -46,7 +48,9 @@ namespace ReflectionLibrary
                 new FlyweightDemo(),
                 new ProxyDemo(),
                 new ChainOfResponsibilityDemo(),
-                new IteratorDemo()
+                new IteratorDemo(),
+                new MementoDemo(),
+                new NullObjectDemo()
 
             });
 

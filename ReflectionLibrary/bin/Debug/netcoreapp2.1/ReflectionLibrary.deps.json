@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8e1d234f6bbce6ec60963e36c12caeb2077ad1b6"
+    "signature": "ec7501269f30cedbec7e81f3b97da1dbf9899039"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
       "ReflectionLibrary/1.0.0": {
         "dependencies": {
           "Autofac": "4.9.2",
+          "JetBrains.Annotations": "2019.1.1",
           "System.Reactive.Core": "4.1.5",
           "morelinq": "3.1.1"
         },
@@ -21,6 +22,14 @@
           "lib/netstandard2.0/Autofac.dll": {
             "assemblyVersion": "4.9.2.0",
             "fileVersion": "4.9.2.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/2019.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2019.1.1.0",
+            "fileVersion": "2019.1.1.0"
           }
         }
       },
@@ -77,6 +86,13 @@
       "sha512": "sha512-lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
       "path": "autofac/4.9.2",
       "hashPath": "autofac.4.9.2.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2019.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y4RFn+HZ7BekqIx+uXuVAvh80quYNiu86oRG2QztmFXQ2mm1lprb7xNawZdFfLxBAh8BQUkSQdO0Itanal8DbQ==",
+      "path": "jetbrains.annotations/2019.1.1",
+      "hashPath": "jetbrains.annotations.2019.1.1.nupkg.sha512"
     },
     "morelinq/3.1.1": {
       "type": "package",
