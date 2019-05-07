@@ -10,7 +10,6 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Command.Demo;
     using ReflectionLibrary.DesignPatterns.Composite.Demo;
     using ReflectionLibrary.DesignPatterns.Decorator.Demo;
-    using ReflectionLibrary.DesignPatterns.DELETE_ME.Demo;
     using ReflectionLibrary.DesignPatterns.Facade.Demo;
     using ReflectionLibrary.DesignPatterns.Factory.Demo;
     using ReflectionLibrary.DesignPatterns.FlyWeight.Demo;
@@ -24,6 +23,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Proxy.Demo;
     using ReflectionLibrary.DesignPatterns.Singleton.Demo;
     using ReflectionLibrary.DesignPatterns.State.Demo;
+    using ReflectionLibrary.DesignPatterns.Strategy.Demo;
     using ReflectionLibrary.Infrastructure;
 
     class Program
@@ -55,7 +55,7 @@ namespace ReflectionLibrary
                 new MementoDemo(),
                 new NullObjectDemo(),
                 new ObserverDemo(),
-                new MockDemo(), // Delete me
+                new StrategyDemo(),
                 new StateDemo() // This is an infinit loop, place it last
 
             });
