@@ -24,6 +24,7 @@ namespace ReflectionLibrary
     using ReflectionLibrary.DesignPatterns.Singleton.Demo;
     using ReflectionLibrary.DesignPatterns.State.Demo;
     using ReflectionLibrary.DesignPatterns.Strategy.Demo;
+    using ReflectionLibrary.DesignPatterns.Template_Method.Demo;
     using ReflectionLibrary.Infrastructure;
 
     class Program
@@ -56,6 +57,7 @@ namespace ReflectionLibrary
                 new NullObjectDemo(),
                 new ObserverDemo(),
                 new StrategyDemo(),
+                new TemplateMethoddemo(),
                 new StateDemo() // This is an infinit loop, place it last
 
             });
