@@ -57,7 +57,7 @@ namespace ReflectionLibrary
                 new NullObjectDemo(),
                 new ObserverDemo(),
                 new StrategyDemo(),
-                new TemplateMethoddemo(),
+                new TemplateMethodDemo(),
                 new StateDemo() // This is an infinit loop, place it last
 
             });
