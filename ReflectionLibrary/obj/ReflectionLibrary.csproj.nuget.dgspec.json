@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj": {}
+    "D:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj": {}
   },
   "projects": {
-    "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj": {
+    "D:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+        "projectUniqueName": "D:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
         "projectName": "ReflectionLibrary",
-        "projectPath": "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
+        "projectPath": "D:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\ReflectionLibrary.csproj",
         "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
-        "outputPath": "C:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\obj\\",
+        "outputPath": "D:\\aaamyfilesystem\\Projects\\ReflectionLibrary\\ReflectionLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,6 +50,7 @@
               "version": "[2019.1.1, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -64,10 +65,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
